@@ -36,4 +36,4 @@ background_level_1 = "images/backgrounds/fondo_nivel1.png"
 tile_level_1 = "images/tiles/bloque_nivel1.png"
 frames_human = []
 
-frames_hongy = ["images/hongy/HongyEstaticoHD1.png", "images/hongy/HongyEstaticoHD1.png", "images/hongy/HongyEstaticoHD3.png", "images/hongy/HongyEstaticoHD4.png", "images/hongy/HongyEstaticoHD5.png", "images/hongy/HongyEstaticoHD6.png", "images/hongy/HongyEstaticoHD7.png"]
+frames_hongy = ["images/humano/Personaje by like1.png", "images/humano/Personaje1.png", "images/humano/Personaje2.png", "images/humano/Personaje3.png", "images/humano/Personaje4.png", "images/humano/Personaje saltando .png"]

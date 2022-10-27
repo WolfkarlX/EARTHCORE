@@ -19,9 +19,9 @@ class Game:
         self.clock = pg.time.Clock()
 
         #Musica del juego
-        pg.mixer.music.load(dirname + "/sound/musica.mp3")
-        pg.mixer.music.play(-1)
-        pg.mixer.music.set_volume(0.3)
+        #pg.mixer.music.load(dirname + "/sound/musica.mp3")
+        #pg.mixer.music.play(-1)
+        #pg.mixer.music.set_volume(0.3)
 
         #Estado actual del juego
         self.game_state = "start"

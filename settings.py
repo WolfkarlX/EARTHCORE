@@ -51,8 +51,8 @@ level_map_1 = [
 'I         1Y           1          1Y                         1Y         1                                                              XXXXXXXXXXXXX      1                                                                   XU                 X           1 I',
 'I         XXXX        XX    XXXXXXXXX                 XXXXXXXXXXX     XXXXX   XXXXX                                  XXXXX            XUUUUUUUUUUUUUXXXXXXXXXXXXXXX                                                XXXXXXXXXXXU                              1 I',
 'I            UX1            UUUUUUUUUX                UUUUUUUUUUUX1                        XXXXXXXXXXXX   XXXXXXXXXXXU                                            UX                                                                                         1 I',
-'I             UXX    X1        UUUUUUUX                          UX                       XUUUUUUUUUUUU                       XXXX                                 UX                                       XXX                    XXXX    XXXXXXXXX         1 I',
-'I     T              UXXX      UUUUUUUUXXXXX                            XXXX                          UX                                                            UX                              XXXXXXXX                                                 1 I',
+'I             UXX    X1        UUUUUUUX                          UX                       XUUUUUUUUUUUU                       XXXX                                 UXX                                      XXX                    XXXX    XXXXXXXXX         1 I',
+'I     T              UXXX      UUUUUUUUXXXXX                            XXXX                          UX                                                                                            XXXXXXXX                                                 1 I',
 'I     X            1       Y   U                                      1     2   Y                   2 UUX                                           2Y                   XXXX                                                                         X      1 I',
 'I1 Y  UX1  T  2XXXXXXXXXXXXXXXXU1                    1     1     2XXXXXXXXXXXXXXXXX    XXXXXXXXXXXXXXXUUU   1       XXXXXXX     1      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXUUUUX                                                      X    X    X              1 I',                                                                                                                                                              
 'IXXXXXUUXXXXXXXUUUUUUUUUUUUUUUUUXXXXXXXXXXXXXXXXXX  XXXXXXXXXXXXXXUUUUUUUUUUUUUUUUUXX  UUUUUUUUUUUUUUUUUUXXXXXXXXXXXUUUUUUU   XXXXXXXXXUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    XXXXXXXXUXXXXUXXXXUXXXXXXXXXXX   X X',
@@ -75,16 +75,16 @@ level_map_2 = [
 
 level_map_3 = [
 'I                                                                                                                                                                                                                                                                                                                                                                                       I',   
-'I                                                                                                                                                                                                                                                                                                                                                                                       I',
+'I                                                                                                                                                                                                                                                Z                                                                                                                                      I',
 'I                                                                                                                                                                                                                                         XXX   XXXX    X                                                                                                        1                      I',
-'I                                                                                               1                                                                                                                                                      XUXXXXXXXX                                                                                               XXX                     I',
-'I                                                                                              XXX                                                                                            1      1      TY     1           TY     1               XUUUUUUUUUUX                                                                   X                        XXUUUXX                   I',
-'I                                                                                            X                                                                                            XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX         XXXUUUUUUUUUUUUX                                             XX  XXX      1     TY        1       XXXXXXX                 1          I',
-'I                         TY                  1                                             X                         1                                    XX  X  XXX                XXX  UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU        XUUUUUUUUUUUUUUUU                                         XX           XXXXXXXXXXXXXXXXXXXXXXXXXX                    XXXXXXXXXXX      I',
-'I                        XXXXX               XXX                                      1    X                         XXX  X                    XXXX   XXX                     X  XX                                                               UUU        UUUUUUX                                    XX                                                                        X     I',
-'I                       XUUUUUX                   1                           1   XX XXX        1                           XX       1     XXX                                U                                                                XXXUUU        UUUUUUUX                                XXXUU                                                                         XX   I',
+'I                                                                                               1Z                                                                                                                                                     XUXXXXXXXX                                                                                               XXX                     I',
+'I                                                                                              XXX                                                                                            1      1      TY     1           TY     1               XUUUUUUUUUUX                                                                   X                 Z      XXUUUXX                   I',
+'I                                                                                            X                                                                     Z                      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX         XXXUUUUUUUUUUUUX                                             XX  XXX      1     TY   Z    1       XXXXXXX                 1          I',
+'I                         TY                 Z1                                             X                         1                         Z          XX  X  XXX                XXX  UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU        XUUUUUUUUUUUUUUUU                                         XX           XXXXXXXXXXXXXXXXXXXXXXXXXX                    XXXXXXXXXXX      I',
+'I                        XXXXX               XXX                                      1    X                         XXX  X  Z                 XXXX   XXX                     X  XX                                                               UUU        UUUUUUX                                    XX                                                                        X     I',
+'I                       XUUUUUX                   1                         Z 1   XX XXX        1Z                          XX       1     XXX                                U                                                                XXXUUU        UUUUUUUX                                XXXUU                                                                         XX   I',
 'I                      XUUUUUUUX                XXXXX                       XXXXX             XXXX            XXX               XXXXXXXXXX                                   XU                                                               XUUUUUU        UUUUUUUUX                             XXUUUUU                                                                             XI',
-'I   1     1   TY      XUUUUUUUUUX  1  TY    1         1       1       1                    XXXUUUU   1        UUUXTY   1        UUUUUUUUUU          1         TY    1                 1                1                             1      XXUUUUUUUX   1                TY       1                      TY      1     TY       1       TY         1       TY      1              1    I',
+'IZ  1     1  ZTY      XUUUUUUUUUX  1  TY    1  Z      1       1       1                    XXXUUUU   1        UUUXTY   1        UUUUUUUUUU  Z       1    Z    TY    1          Z      1         Z      1                Z            1      XXUUUUUUUX Z 1                TY       1         Z            TY      1     TY       1       TY         1       TY      1              1   ZI',
 'IXXXXXXXXXXXXXXXXXXXXXUUUUUUUUUUUXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXUUUUUUUXXXXXXX   XXUUUUXXXXXXXXXXXXXXUUUUUUUUUUXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXUUUUUUUUUUUUUUUUUUUUUUUUUUXXXXXXXXXXXXXXXXXX   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX   XXXXXXXXI',
 ]
 
@@ -99,6 +99,8 @@ item_sprout = "images/items/item_retoño.png"
 item_mound = "images/items/monton_tierra.png"
 item_back_Tree = "images/items/item_tree.png"
 item_back_dryTree = "images/backgrounds/árbol_seco.png"
+item_back_warning = "/images/items/Peligro.png"
+item_back_foxUwU = "/images/items/zorro.png"
 
 ###Interfaz comun de los niveles
 difficulty = 'easy'
@@ -116,7 +118,7 @@ tile_grass_level_1 = "images/tiles/bloque_nivel1.png"
 tile_dirt_level_1 = "images/tiles/bloque_tierra_nivel1.png"
 items_level_1 = ((item_seed, (26, 26), item_seed), (item_trash, (50, 50), item_trash))
 item_sound_effect_level_1 = origin_dir + "/sound/effects/basura3.wav"
-item_back_level_1 = (item_back_dryTree, (80, 120))
+item_back_level_1 = ((item_back_dryTree, (80, 120), "T"), )
 
 frames_human = ["images/human/Personaje1.png", "images/human/Personaje2.png", "images/human/Personaje3.png", "images/human/Personaje4.png", "images/human/Personaje5.png"]
 for index, frame in enumerate(frames_human):
@@ -133,7 +135,6 @@ tile_grass_level_2 = "images/tiles/bloque_nivel2.png"
 tile_dirt_level_2 = "images/tiles/bloque_tierra_nivel2.png"
 items_level_2 = ((item_mound, (36, 14), item_sprout, (52, 40)), )
 item_sound_effect_level_2 = origin_dir + "/sound/effects/germinar.wav"
-item_back_warning = "/images/items/Peligro.png"
 
 
 frames_hongy = ["images/hongy/HongyEstaticoHD1.png", "images/hongy/HongyEstaticoHD1.png", "images/hongy/HongyEstaticoHD3.png", "images/hongy/HongyEstaticoHD4.png", "images/hongy/HongyEstaticoHD5.png", "images/hongy/HongyEstaticoHD6.png", "images/hongy/HongySalto.png"]
@@ -151,7 +152,7 @@ tile_grass_level_3 = "images/tiles/bloque_nivel3.png"
 tile_dirt_level_3 = "/images/tiles/bloque_pura_tierra_nivel3.png"
 items_level_3 = ((item_sprout, (52, 40), item_back_Tree, (150, 180)), )
 item_sound_effect_level_3 = origin_dir + "/sound/effects/agua_sonido.wav"
-item_back_level_3 = (item_back_warning, (54, 70))
+item_back_level_3 = ((item_back_warning, (54, 70), "T"), (item_back_foxUwU, (47, 44), "Z"))
 
 frames_hongy_shower = ["images/hongy/HongyShower1.png", "images/hongy/HongyShower2.png", "images/hongy/HongyShower3.png", "images/hongy/HongyShower4.png", "images/hongy/HongyShower5.png", "images/hongy/HongyShower6.png", "images/hongy/HongyShower7.png"]
 for index, frame in enumerate(frames_hongy_shower):

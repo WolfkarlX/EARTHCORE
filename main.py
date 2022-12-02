@@ -21,7 +21,7 @@ class Game:
         # Musica del juego
         pg.mixer.music.load(dirname + "/sound/music/prueba_music.wav")
         pg.mixer.music.play(-1)
-        pg.mixer.music.set_volume(0.04)
+        pg.mixer.music.set_volume(0.1)
 
         #Estado actual del juego
         self.game_state = "start"
@@ -36,8 +36,11 @@ class Game:
         self.background_controls_img = pg.image.load(dirname + "/images/backgrounds/Fondo Controles.png").convert_alpha()
         self.background_controls_img = pg.transform.scale(self.background_controls_img, (WIDTH_SCREEN, HEIGHT_SCREEN))
 
-        self.background_lore_img = pg.image.load(dirname + "/images/backgrounds/lore.png").convert_alpha()
-        self.background_lore_img = pg.transform.scale(self.background_lore_img, (WIDTH_SCREEN, HEIGHT_SCREEN))
+        self.background_lore_1_img = pg.image.load(dirname + "/images/backgrounds/lore_1.png").convert_alpha()
+        self.background_lore_1_img = pg.transform.scale(self.background_lore_1_img, (WIDTH_SCREEN, HEIGHT_SCREEN))
+
+        self.background_lore_2_img = pg.image.load(dirname + "/images/backgrounds/lore_2.png").convert_alpha()
+        self.background_lore_2_img = pg.transform.scale(self.background_lore_2_img, (WIDTH_SCREEN, HEIGHT_SCREEN))
 
         self.background_level_1_finished = pg.image.load(dirname + background_level_1_finished)
         self.background_level_1_finished = pg.transform.scale(self.background_level_1_finished,(WIDTH_SCREEN, HEIGHT_SCREEN))
@@ -186,14 +189,14 @@ class Game:
             
             ## ESTADO DE LORE DEL JUEGO ##
             elif self.game_state == lore:
-                self.screen.blit(self.background_lore_img, (0, 0))
+                self.screen.blit(self.background_lore_1_img, (0, 0))
                 if self.next_btn.draw(self.screen):
                     self.change_state(lore1)
 
                 if self.back_btn.draw(self.screen):
                     self.change_state(level_selector)
             elif self.game_state == lore1:
-                self.screen.blit(self.background_lore_img, (0, 0))
+                self.screen.blit(self.background_lore_2_img, (0, 0))
                 if self.before_btn.draw(self.screen):
                     self.change_state(lore)
             ###  ESTADO DE INICIO DE NIVEL  ###
@@ -212,8 +215,8 @@ class Game:
 
             elif self.game_state == level_3: 
                 earthcore_level_3 = Level(self.screen, objetive_level_3_text[settings.language], level_map_3, tile_grass_level_3, tile_dirt_level_3, tile_invisible, background_level_3, character_level_3, items_level_3, enemy_level_3, item_sound_effect_level_3, item_back=  item_back_level_3)
-                if True: #earthcore_level_3.level_run():
-                    self.ganar(self.background_level_3_finished, WIDTH_SCREEN//2, HEIGHT_SCREEN//2, WIDTH_SCREEN//2, HEIGHT_SCREEN//2 -100, settings.level_completed_text3, 60, settings.level_completed_text4, 60)
+                if earthcore_level_3.level_run():
+                    self.ganar(self.background_level_3_finished, WIDTH_SCREEN//2, HEIGHT_SCREEN//2 - 200, WIDTH_SCREEN//2, HEIGHT_SCREEN//2 -100, settings.level_completed_text3, 60, settings.level_completed_text4, 60)
                 self.change_state(level_selector)
 
             #Ultimo paso, actualizar la pantalla

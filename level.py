@@ -47,7 +47,8 @@ class Level():
 
         self.items_back = []
         if item_back:
-            self.items_back = self.create_item(dirname+"/"+item_back[0], level_desing, "T", item_back[1]) #Items de fondo, el jugador no interactua
+            for item_b in item_back:
+                self.items_back += self.create_item(dirname+"/"+item_b[0], level_desing, item_b[2], item_b[1]) #Items de fondo, el jugador no interactua
         
         self.enemies = self.create_enemies(enemy[0], level_desing, "Y", enemy[1], enemy[2])#Enemigos
 
